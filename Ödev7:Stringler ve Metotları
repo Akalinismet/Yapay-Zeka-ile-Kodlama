@@ -1,0 +1,19 @@
+#Görev 1
+metin = input("Bir metin girin: ")
+
+metin = metin.upper() 
+metin = metin.strip()  
+metin = metin.replace("A", "E")  
+
+kelimeler = metin.split() 
+
+print(kelimeler)
+
+#Görev 2
+metin = "Python programlama dili"
+
+ters_metin = metin[::-1] 
+print(ters_metin)
+
+yeni_metin = metin.replace("programlama", "kodlama")  
+print(yeni_metin)
