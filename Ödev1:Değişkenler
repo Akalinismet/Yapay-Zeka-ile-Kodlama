@@ -1,0 +1,11 @@
+#Görev 1
+isim, yas, boy, ogrenci_mi = "ismet", 22, 1.81, True
+print(isim)
+print(yas)
+print(boy)
+print(ogrenci_mi)
+
+#Görev 2
+dogum_yili = int(input("dogum yilinizi giriniz:"))
+hesaplanan_yas = 2025 - dogum_yili
+print(hesaplanan_yas)
