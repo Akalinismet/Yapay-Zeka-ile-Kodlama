@@ -1,0 +1,26 @@
+#Görev 1
+sayi1 = int(input("1.sayiyi giriniz"))
+sayi2 = int(input("2.sayiyi giriniz"))
+
+toplam = sayi1 + sayi2
+fark = sayi1 - sayi2
+çarpim = sayi1 * sayi2
+bölme = sayi1 / sayi2
+tam_bölme = sayi1 // sayi2
+mod_alma = sayi1 % sayi2
+üs_alma = sayi1 ** sayi2
+
+print(toplam)
+print(fark)
+print(çarpim)
+print(bölme)
+print(tam_bölme)
+print(mod_alma)
+print(üs_alma)
+
+
+#Görev 2
+π = 3.14
+r = int(input("yaricap giriniz:"))
+daire_alanı = π * r**2
+print(daire_alanı)
