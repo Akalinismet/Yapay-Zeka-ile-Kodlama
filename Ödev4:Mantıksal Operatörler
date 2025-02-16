@@ -1,0 +1,23 @@
+#Görev 1
+yas = int(input("yasinizi giriniz:"))
+q = yas > 18 and yas < 65
+w = yas < 18 or yas > 65
+e = not (yas == 25)
+print("1.koşul:", q)
+print("2.koşul:", w)
+print("3.koşul:", e)
+
+#Görev 2
+sayi = int(input("sayinizi giriniz:"))
+
+d = sayi % 2 == 0
+f = sayi > 0
+print("çift mi:", d)
+print("pozitif mi:", f)
+
+
+#Görev 3
+yas = int(input("Yaşınızı girin: "))
+ehliyet = input("Ehliyetiniz var mı? (True/False): ") == "True"
+
+print("Araba kullanabilirsiniz" * ((yas > 18) and ehliyet) or "Araba kullanamazsınız")
