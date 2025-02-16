@@ -1,0 +1,13 @@
+a = 256
+b = 256
+print(a is b)  
+# Sonuç ne olur? Neden?
+# sonuc True olur çünkü; Python, -5 ile 256 arasındaki bütün tamsayıları bellekte önbelleğe alır
+# Bu yüzden a = 256 ve b = 256 aynı hafıza adresine işaret eder, yani a is b nin sonucu True olur.
+
+c = 257
+d = 257
+print(c is d)  
+# Sonuç ne olur? Neden?
+#sonuc False olur çünkü; 257 sayısı, Python'un önbelleğe aldığı -5 ile 256 aralığının dışında olduğu için, c ve d farklı bellek adreslerine atanır.
+#Bu yüzden c is d nin sonucu False olur.
